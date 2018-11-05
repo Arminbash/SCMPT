@@ -1,0 +1,56 @@
+﻿@model Citas
+@{
+    Layout = null;
+}
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+        <link rel="stylesheet" href="~/css/materialize.css">
+
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.2/css/materialize.min.css">
+ 
+    <div class="form-horizontal borde">
+        <h4>cita</h4>
+        <hr />
+        <div class="form-group">
+            @Html.LabelFor(model => model.idDoctor, "idDoctor", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("idDoctor", String.Empty)
+                @Html.ValidationMessageFor(model => model.idDoctor)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Fecha, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Fecha)
+                @Html.ValidationMessageFor(model => model.Fecha)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Hora, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Hora)
+                @Html.ValidationMessageFor(model => model.Hora)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Atras", "Index", "Usuario")
+</div>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.2/js/materialize.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('select').material_select();
+    });
+</script>

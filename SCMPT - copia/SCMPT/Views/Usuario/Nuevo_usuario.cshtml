@@ -1,0 +1,102 @@
+﻿@using Microsoft.AspNet.Identity
+@model SCMPT.Models.Proc_Usuarioo
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<br>
+<br>
+    <div class="bf">
+
+    <div class="form-horizontal">
+        <h5>Hola @User.Identity.GetUserName(), por favor completa el siguiente formulario</h5>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Primer_Nombre, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Primer_Nombre)
+                @Html.ValidationMessageFor(model => model.Primer_Nombre)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Segundo_Nombre, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Segundo_Nombre)
+                @Html.ValidationMessageFor(model => model.Segundo_Nombre)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Primer_Apellido, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Primer_Apellido)
+                @Html.ValidationMessageFor(model => model.Primer_Apellido)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Segundo_Apellido, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Segundo_Apellido)
+                @Html.ValidationMessageFor(model => model.Segundo_Apellido)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Fecha_Nacimiento, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Fecha_Nacimiento)
+                @Html.ValidationMessageFor(model => model.Fecha_Nacimiento)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Genero, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Genero)
+                @Html.ValidationMessageFor(model => model.Genero)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Cedula, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Cedula)
+                @Html.ValidationMessageFor(model => model.Cedula)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Telefono, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Telefono)
+                @Html.ValidationMessageFor(model => model.Telefono)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Email)
+                @Html.ValidationMessageFor(model => model.Email)
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+
+    </div> <!--end of div container -->
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

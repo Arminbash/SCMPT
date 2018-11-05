@@ -1,0 +1,91 @@
+﻿@using System.Web.UI.WebControls
+@using Microsoft.AspNet.Identity
+@model List<Noticia>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="~/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link rel="stylesheet" href="~/css/main.css">
+</head>
+<body>
+<div class="row">
+    <div class="col s12 m4 l3 #37474f blue-grey darken-3">
+        <ul class="collapsible popout" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header">
+                    <div class="card-panel hoverable">
+                        <div class="col s6"> <img src="@Url.Action("convertirimagen", "Usuario", new {id = User.Identity.GetUserId()})" alt="Perfil" class="responsive-img circle">
+                        </div>
+                        <span><h5>@ViewBag.nombre</h5></span>
+                    </div>
+                </div>
+                <div class="collapsible-body white">
+                    <a href="#"><span><h6>Desconectar</h6></span></a>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">Opciones</div>
+                <div class="collapsible-body white">
+                    <ul>
+                        <li>
+                            <a href="~/Citas/ProgramarCita"> Programar Citas</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+    
+       @Html.ActionLink("Ver mis Citas","Examenes","Usuario")
+    }
+    @using (Html.BeginForm("Index", "Usuario", FormMethod.Post, new {enctype = "multipart/form-data"}))
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-group">
+            <div class="col-md-10">
+                <input type="file" name="FileUpload1" id="FileUpload1" value="examinar"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="cambiar" class="btn btn-default"/>
+            </div></div>
+    }
+@if (Model != null)
+{
+    foreach (var noticias in Model)
+     {
+         <div class="card">
+             <div class="card-image waves-effect waves-block waves-light">
+                 <img class="activator"width="300" height="300" src="@Url.Action("imagennoticia", "Usuario", new {id = noticias.idNoticia})">
+             </div>
+             <div class="card-content">
+                 <span class="card-title activator grey-text text-darken-4">@noticias.Titulo<i class="material-icons right">more_vert</i></span>
+                 <p>Creada por: Dr. @Html.Action("nombrepersona", new {id = noticias.idDoctor})</p>
+             </div>
+             <div class="card-reveal">
+                 <span class="card-title grey-text text-darken-4">@noticias.Titulo<i class="material-icons right">close</i></span>
+                 <p>@noticias.Texto</p>
+             </div>
+         </div>
+     }
+}
+<script src="~/js/active.js"></script>
+        <script src="js/init.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/materialize.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $(".button-collapse").sideNav();
+                $('.collapsible').collapsible({
+                    accordion: false
+                });
+            });
+        </script>
+</body>
+</html> 

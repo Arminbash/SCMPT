@@ -1,0 +1,28 @@
+﻿@using SCMPT.Models;
+@using Microsoft.AspNet.Identity;
+@{
+    ViewBag.Title = "Administrar cuenta";
+}
+
+<div class="fondo sin-espacio">
+    <h2 class="color-letra letra_s center">@ViewBag.Title.</h2>
+
+    <p class="text-success">@ViewBag.StatusMessage</p>
+    <div class="row">
+        <div class="col-md-12 borde2">
+            @if (ViewBag.HasLocalPassword)
+            {
+                @Html.Partial("_ChangePasswordPartial")
+            }
+            else
+            {
+                @Html.Partial("_SetPasswordPartial")
+            }
+
+
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

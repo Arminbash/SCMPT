@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - SCMPT</title>
+    <link rel="stylesheet" href="~/css/materialize.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper blue darken-2">
+                <a href="#" class="brand-logo">SCMPT</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Contacto", "Contact", "Home")</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+
+                <ul class="side-nav" id="mobile-demo">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+
+
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+             if (d.getElementById(id)) return;
+                 js = d.createElement(s); js.id = id;
+                 js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.8";
+                 fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook-jssdk'));</script>
+
+
+    @*<div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    </ul>
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+        </div>*@
+    <div>
+        <!-- container body-content -->
+        @RenderBody()
+
+    </div>
+
+
+    <footer class="page-footer grey darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">SCMPT Developers Team</h5>
+                    <p class="grey-text text-lighten-4">Estamos para servirle, por que nos importa su salud.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links de Contacto</h5>
+                    <ul>
+                        <li>
+                            <!-- Place this tag where you want the button to render. -->
+                            <a class="github-button" href="https://github.com/asaelz" data-style="mega" data-count-href="/asaelz/followers" data-count-api="/users/asaelz#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow SCMPT on GitHub">Follow SCMPT</a>
+                        </li>
+                        <li>
+                            <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+            <div class="container">
+                © 2016 Copyright<a class="orange-text text-lighten-3" href="#"> JuancitoCode.com</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+
+
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <!--  Scripts-->
+    <script src="~/js/active.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script>
+     $(document).ready(function(){
+        $(".button-collapse").sideNav();
+     });
+    </script>
+   
+</body>
+</html>

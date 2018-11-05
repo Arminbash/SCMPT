@@ -1,0 +1,108 @@
+﻿
+@model IEnumerable<SCMPT.Persona>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link rel="stylesheet" href="~/css/main.css">
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Crear nuevo", "Nuevodoctor")
+    </p>
+    @Html.ActionLink("Atras", "Admin")
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Primer_Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Segundo_Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Primer_Apellido)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Segundo_Apellido)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fecha_Nacimiento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Genero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cedula)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telefono)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Foto)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Primer_Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Segundo_Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Primer_Apellido)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Segundo_Apellido)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fecha_Nacimiento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Genero)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cedula)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telefono)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    <img src="@Url.Action("convertirimagen", "Usuario", new { id = item.idUsuario})" class="circle" alt="USER">
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "Edit", new { id = item.idPersona }) |
+                </td>
+            </tr>
+        }
+
+    </table>
+    <script src="~/js/active.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".button-collapse").sideNav();
+        });
+    </script>
+</body>
+</html>

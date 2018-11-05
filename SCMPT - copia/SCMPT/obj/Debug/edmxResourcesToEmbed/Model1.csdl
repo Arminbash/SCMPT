@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SCMPTModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="C__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ContextKey" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Model" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="ProductVersion" Type="String" MaxLength="32" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetRoles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="AspNetUsers" Relationship="Self.AspNetUserRoles" FromRole="AspNetRoles" ToRole="AspNetUsers" />
+  </EntityType>
+  <EntityType Name="AspNetUserClaims">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClaimType" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ClaimValue" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="User_Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="AspNetUsers" Relationship="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_User_Id" FromRole="AspNetUserClaims" ToRole="AspNetUsers" />
+  </EntityType>
+  <EntityType Name="AspNetUserLogins">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="LoginProvider" />
+      <PropertyRef Name="ProviderKey" />
+    </Key>
+    <Property Name="UserId" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LoginProvider" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ProviderKey" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="AspNetUsers" Relationship="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" FromRole="AspNetUserLogins" ToRole="AspNetUsers" />
+  </EntityType>
+  <EntityType Name="AspNetUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PasswordHash" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SecurityStamp" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Discriminator" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="AspNetUserClaims" Relationship="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_User_Id" FromRole="AspNetUsers" ToRole="AspNetUserClaims" />
+    <NavigationProperty Name="AspNetUserLogins" Relationship="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" FromRole="AspNetUsers" ToRole="AspNetUserLogins" />
+    <NavigationProperty Name="Imagenes" Relationship="Self.FK__Imagenes__id__42E1EEFE" FromRole="AspNetUsers" ToRole="Imagenes" />
+    <NavigationProperty Name="Persona" Relationship="Self.FK__Persona__idUsuar__17F790F9" FromRole="AspNetUsers" ToRole="Persona" />
+    <NavigationProperty Name="AspNetRoles" Relationship="Self.AspNetUserRoles" FromRole="AspNetUsers" ToRole="AspNetRoles" />
+  </EntityType>
+  <EntityType Name="Citas">
+    <Key>
+      <PropertyRef Name="idCita" />
+    </Key>
+    <Property Name="idCita" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idDoctor" Type="Int32" Nullable="false" />
+    <Property Name="idPaciente" Type="Int32" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Hora" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="Asistida" Type="Boolean" Nullable="false" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Doctor" Relationship="Self.FK__Citas__idDoctor__2645B050" FromRole="Citas" ToRole="Doctor" />
+    <NavigationProperty Name="Paciente" Relationship="Self.FK__Citas__idPacient__2739D489" FromRole="Citas" ToRole="Paciente" />
+    <NavigationProperty Name="Detalles_Cita" Relationship="Self.FK__Detalles___idCit__2BFE89A6" FromRole="Citas" ToRole="Detalles_Cita" />
+  </EntityType>
+  <EntityType Name="Detalles_Cita">
+    <Key>
+      <PropertyRef Name="idDetalle" />
+    </Key>
+    <Property Name="idDetalle" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idCita" Type="Int32" Nullable="false" />
+    <Property Name="Detalles" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="costo" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Citas" Relationship="Self.FK__Detalles___idCit__2BFE89A6" FromRole="Detalles_Cita" ToRole="Citas" />
+    <NavigationProperty Name="Resultado_examen" Relationship="Self.FK__Resultado__idDet__30C33EC3" FromRole="Detalles_Cita" ToRole="Resultado_examen" />
+  </EntityType>
+  <EntityType Name="Doctor">
+    <Key>
+      <PropertyRef Name="idDoctor" />
+    </Key>
+    <Property Name="idDoctor" Type="Int32" Nullable="false" />
+    <Property Name="Especialidad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Citas" Relationship="Self.FK__Citas__idDoctor__2645B050" FromRole="Doctor" ToRole="Citas" />
+    <NavigationProperty Name="Persona" Relationship="Self.FK__Doctor__idDoctor__1CBC4616" FromRole="Doctor" ToRole="Persona" />
+    <NavigationProperty Name="Lista_examenes" Relationship="Self.FK__Lista_exa__idDoc__40058253" FromRole="Doctor" ToRole="Lista_examenes" />
+    <NavigationProperty Name="Noticia" Relationship="Self.FK__Noticia__idDocto__37703C52" FromRole="Doctor" ToRole="Noticia" />
+  </EntityType>
+  <EntityType Name="Lista_examenes">
+    <Key>
+      <PropertyRef Name="idlist" />
+    </Key>
+    <Property Name="idlist" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idPaciente" Type="Int32" Nullable="false" />
+    <Property Name="idDoctor" Type="Int32" Nullable="false" />
+    <Property Name="orina" Type="Boolean" Nullable="false" />
+    <Property Name="sangre" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Doctor" Relationship="Self.FK__Lista_exa__idDoc__40058253" FromRole="Lista_examenes" ToRole="Doctor" />
+    <NavigationProperty Name="Paciente" Relationship="Self.FK__Lista_exa__idPac__3F115E1A" FromRole="Lista_examenes" ToRole="Paciente" />
+  </EntityType>
+  <EntityType Name="Noticia">
+    <Key>
+      <PropertyRef Name="idNoticia" />
+    </Key>
+    <Property Name="idNoticia" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idDoctor" Type="Int32" Nullable="false" />
+    <Property Name="Titulo" Type="String" MaxLength="60" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Imagen" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="Texto" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Doctor" Relationship="Self.FK__Noticia__idDocto__37703C52" FromRole="Noticia" ToRole="Doctor" />
+    <NavigationProperty Name="Paciente" Relationship="Self.Mochila" FromRole="Noticia" ToRole="Paciente" />
+  </EntityType>
+  <EntityType Name="Paciente">
+    <Key>
+      <PropertyRef Name="idPaciente" />
+    </Key>
+    <Property Name="idPaciente" Type="Int32" Nullable="false" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Citas" Relationship="Self.FK__Citas__idPacient__2739D489" FromRole="Paciente" ToRole="Citas" />
+    <NavigationProperty Name="Lista_examenes" Relationship="Self.FK__Lista_exa__idPac__3F115E1A" FromRole="Paciente" ToRole="Lista_examenes" />
+    <NavigationProperty Name="Persona" Relationship="Self.FK__Paciente__idPaci__2180FB33" FromRole="Paciente" ToRole="Persona" />
+    <NavigationProperty Name="Noticia" Relationship="Self.Mochila" FromRole="Paciente" ToRole="Noticia" />
+  </EntityType>
+  <EntityType Name="Persona">
+    <Key>
+      <PropertyRef Name="idPersona" />
+    </Key>
+    <Property Name="idPersona" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idUsuario" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Primer_Nombre" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Segundo_Nombre" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Primer_Apellido" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Segundo_Apellido" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Fecha_Nacimiento" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Genero" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Cedula" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Telefono" Type="Int32" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Foto" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="AspNetUsers" Relationship="Self.FK__Persona__idUsuar__17F790F9" FromRole="Persona" ToRole="AspNetUsers" />
+    <NavigationProperty Name="Doctor" Relationship="Self.FK__Doctor__idDoctor__1CBC4616" FromRole="Persona" ToRole="Doctor" />
+    <NavigationProperty Name="Paciente" Relationship="Self.FK__Paciente__idPaci__2180FB33" FromRole="Persona" ToRole="Paciente" />
+  </EntityType>
+  <EntityType Name="Resultado_examen">
+    <Key>
+      <PropertyRef Name="idResultado" />
+    </Key>
+    <Property Name="idResultado" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idDetalle" Type="Int32" Nullable="false" />
+    <Property Name="Resultado" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Detalles_Cita" Relationship="Self.FK__Resultado__idDet__30C33EC3" FromRole="Resultado_examen" ToRole="Detalles_Cita" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Imagenes">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="imagen" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="AspNetUsers" Relationship="Self.FK__Imagenes__id__42E1EEFE" FromRole="Imagenes" ToRole="AspNetUsers" />
+  </EntityType>
+  <Association Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_User_Id">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserClaims" Type="Self.AspNetUserClaims" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserClaims">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserLogins" Type="Self.AspNetUserLogins" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserLogins">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Imagenes__id__42E1EEFE">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1" />
+    <End Role="Imagenes" Type="Self.Imagenes" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Imagenes">
+        <PropertyRef Name="id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Persona__idUsuar__17F790F9">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1" />
+    <End Role="Persona" Type="Self.Persona" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Persona">
+        <PropertyRef Name="idUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Citas__idDoctor__2645B050">
+    <End Role="Doctor" Type="Self.Doctor" Multiplicity="1" />
+    <End Role="Citas" Type="Self.Citas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doctor">
+        <PropertyRef Name="idDoctor" />
+      </Principal>
+      <Dependent Role="Citas">
+        <PropertyRef Name="idDoctor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Citas__idPacient__2739D489">
+    <End Role="Paciente" Type="Self.Paciente" Multiplicity="1" />
+    <End Role="Citas" Type="Self.Citas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Paciente">
+        <PropertyRef Name="idPaciente" />
+      </Principal>
+      <Dependent Role="Citas">
+        <PropertyRef Name="idPaciente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Detalles___idCit__2BFE89A6">
+    <End Role="Citas" Type="Self.Citas" Multiplicity="1" />
+    <End Role="Detalles_Cita" Type="Self.Detalles_Cita" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Citas">
+        <PropertyRef Name="idCita" />
+      </Principal>
+      <Dependent Role="Detalles_Cita">
+        <PropertyRef Name="idCita" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Resultado__idDet__30C33EC3">
+    <End Role="Detalles_Cita" Type="Self.Detalles_Cita" Multiplicity="1" />
+    <End Role="Resultado_examen" Type="Self.Resultado_examen" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Detalles_Cita">
+        <PropertyRef Name="idDetalle" />
+      </Principal>
+      <Dependent Role="Resultado_examen">
+        <PropertyRef Name="idDetalle" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Doctor__idDoctor__1CBC4616">
+    <End Role="Persona" Type="Self.Persona" Multiplicity="1" />
+    <End Role="Doctor" Type="Self.Doctor" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Persona">
+        <PropertyRef Name="idPersona" />
+      </Principal>
+      <Dependent Role="Doctor">
+        <PropertyRef Name="idDoctor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Lista_exa__idDoc__40058253">
+    <End Role="Doctor" Type="Self.Doctor" Multiplicity="1" />
+    <End Role="Lista_examenes" Type="Self.Lista_examenes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doctor">
+        <PropertyRef Name="idDoctor" />
+      </Principal>
+      <Dependent Role="Lista_examenes">
+        <PropertyRef Name="idDoctor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Noticia__idDocto__37703C52">
+    <End Role="Doctor" Type="Self.Doctor" Multiplicity="1" />
+    <End Role="Noticia" Type="Self.Noticia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doctor">
+        <PropertyRef Name="idDoctor" />
+      </Principal>
+      <Dependent Role="Noticia">
+        <PropertyRef Name="idDoctor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Lista_exa__idPac__3F115E1A">
+    <End Role="Paciente" Type="Self.Paciente" Multiplicity="1" />
+    <End Role="Lista_examenes" Type="Self.Lista_examenes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Paciente">
+        <PropertyRef Name="idPaciente" />
+      </Principal>
+      <Dependent Role="Lista_examenes">
+        <PropertyRef Name="idPaciente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Paciente__idPaci__2180FB33">
+    <End Role="Persona" Type="Self.Persona" Multiplicity="1" />
+    <End Role="Paciente" Type="Self.Paciente" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Persona">
+        <PropertyRef Name="idPersona" />
+      </Principal>
+      <Dependent Role="Paciente">
+        <PropertyRef Name="idPaciente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AspNetUserRoles">
+    <End Role="AspNetRoles" Type="Self.AspNetRoles" Multiplicity="*" />
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="*" />
+  </Association>
+  <Association Name="Mochila">
+    <End Role="Noticia" Type="Self.Noticia" Multiplicity="*" />
+    <End Role="Paciente" Type="Self.Paciente" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="SCMPTEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="C__MigrationHistory" EntityType="Self.C__MigrationHistory" />
+    <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRoles" />
+    <EntitySet Name="AspNetUserClaims" EntityType="Self.AspNetUserClaims" />
+    <EntitySet Name="AspNetUserLogins" EntityType="Self.AspNetUserLogins" />
+    <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUsers" />
+    <EntitySet Name="Citas" EntityType="Self.Citas" />
+    <EntitySet Name="Detalles_Cita" EntityType="Self.Detalles_Cita" />
+    <EntitySet Name="Doctor" EntityType="Self.Doctor" />
+    <EntitySet Name="Lista_examenes" EntityType="Self.Lista_examenes" />
+    <EntitySet Name="Noticia" EntityType="Self.Noticia" />
+    <EntitySet Name="Paciente" EntityType="Self.Paciente" />
+    <EntitySet Name="Persona" EntityType="Self.Persona" />
+    <EntitySet Name="Resultado_examen" EntityType="Self.Resultado_examen" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Imagenes" EntityType="Self.Imagenes" />
+    <AssociationSet Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_User_Id" Association="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_User_Id">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserClaims" EntitySet="AspNetUserClaims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserLogins" EntitySet="AspNetUserLogins" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Imagenes__id__42E1EEFE" Association="Self.FK__Imagenes__id__42E1EEFE">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Imagenes" EntitySet="Imagenes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Persona__idUsuar__17F790F9" Association="Self.FK__Persona__idUsuar__17F790F9">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Persona" EntitySet="Persona" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Citas__idDoctor__2645B050" Association="Self.FK__Citas__idDoctor__2645B050">
+      <End Role="Doctor" EntitySet="Doctor" />
+      <End Role="Citas" EntitySet="Citas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Citas__idPacient__2739D489" Association="Self.FK__Citas__idPacient__2739D489">
+      <End Role="Paciente" EntitySet="Paciente" />
+      <End Role="Citas" EntitySet="Citas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Detalles___idCit__2BFE89A6" Association="Self.FK__Detalles___idCit__2BFE89A6">
+      <End Role="Citas" EntitySet="Citas" />
+      <End Role="Detalles_Cita" EntitySet="Detalles_Cita" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Resultado__idDet__30C33EC3" Association="Self.FK__Resultado__idDet__30C33EC3">
+      <End Role="Detalles_Cita" EntitySet="Detalles_Cita" />
+      <End Role="Resultado_examen" EntitySet="Resultado_examen" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Doctor__idDoctor__1CBC4616" Association="Self.FK__Doctor__idDoctor__1CBC4616">
+      <End Role="Persona" EntitySet="Persona" />
+      <End Role="Doctor" EntitySet="Doctor" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Lista_exa__idDoc__40058253" Association="Self.FK__Lista_exa__idDoc__40058253">
+      <End Role="Doctor" EntitySet="Doctor" />
+      <End Role="Lista_examenes" EntitySet="Lista_examenes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Noticia__idDocto__37703C52" Association="Self.FK__Noticia__idDocto__37703C52">
+      <End Role="Doctor" EntitySet="Doctor" />
+      <End Role="Noticia" EntitySet="Noticia" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Lista_exa__idPac__3F115E1A" Association="Self.FK__Lista_exa__idPac__3F115E1A">
+      <End Role="Paciente" EntitySet="Paciente" />
+      <End Role="Lista_examenes" EntitySet="Lista_examenes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Paciente__idPaci__2180FB33" Association="Self.FK__Paciente__idPaci__2180FB33">
+      <End Role="Persona" EntitySet="Persona" />
+      <End Role="Paciente" EntitySet="Paciente" />
+    </AssociationSet>
+    <AssociationSet Name="AspNetUserRoles" Association="Self.AspNetUserRoles">
+      <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+    </AssociationSet>
+    <AssociationSet Name="Mochila" Association="Self.Mochila">
+      <End Role="Noticia" EntitySet="Noticia" />
+      <End Role="Paciente" EntitySet="Paciente" />
+    </AssociationSet>
+    <FunctionImport Name="admina">
+      <Parameter Name="id" Mode="In" Type="String" />
+      <Parameter Name="user" Mode="In" Type="String" />
+      <Parameter Name="Primer_Nombre" Mode="In" Type="String" />
+      <Parameter Name="Segundo_Nombre" Mode="In" Type="String" />
+      <Parameter Name="Primer_Apellido" Mode="In" Type="String" />
+      <Parameter Name="Segundo_Apellido" Mode="In" Type="String" />
+      <Parameter Name="Fecha_Nacimiento" Mode="In" Type="DateTime" />
+      <Parameter Name="Genero" Mode="In" Type="String" />
+      <Parameter Name="Cedula" Mode="In" Type="String" />
+      <Parameter Name="Telefono" Mode="In" Type="Int32" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="NuevoUsuario">
+      <Parameter Name="id" Mode="In" Type="String" />
+      <Parameter Name="Primer_Nombre" Mode="In" Type="String" />
+      <Parameter Name="Segundo_Nombre" Mode="In" Type="String" />
+      <Parameter Name="Primer_Apellido" Mode="In" Type="String" />
+      <Parameter Name="Segundo_Apellido" Mode="In" Type="String" />
+      <Parameter Name="Fecha_Nacimiento" Mode="In" Type="DateTime" />
+      <Parameter Name="Genero" Mode="In" Type="String" />
+      <Parameter Name="Cedula" Mode="In" Type="String" />
+      <Parameter Name="Telefono" Mode="In" Type="Int32" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="Especialidad" Mode="In" Type="String" />
+      <Parameter Name="Tipo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="ProgramarCita">
+      <Parameter Name="Idcita" Mode="In" Type="Int32" />
+      <Parameter Name="Idpaciente" Mode="In" Type="Int32" />
+      <Parameter Name="Iddoctor" Mode="In" Type="Int32" />
+      <Parameter Name="Fecha" Mode="In" Type="DateTime" />
+      <Parameter Name="Hora" Mode="In" Type="Time" />
+      <Parameter Name="Asistida" Mode="In" Type="Boolean" />
+      <Parameter Name="Query" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

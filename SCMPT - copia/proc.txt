@@ -1,0 +1,35 @@
+USE [SCMPT]
+GO
+/****** Object:  StoredProcedure [dbo].[NuevoUsuario]    Script Date: 10/18/2016 22:58:01 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[NuevoUsuario]
+@id nvarchar(128)
+,@Primer_Nombre nvarchar(15)
+,@Segundo_Nombre nvarchar(15)
+,@Primer_Apellido nvarchar(15)
+,@Segundo_Apellido nvarchar(15)
+,@Fecha_Nacimiento date
+,@Genero nvarchar(10)
+,@Cedula nvarchar(20)
+,@Telefono int
+,@Email nvarchar(30)
+,@Especialidad nvarchar(30)
+,@Tipo int 
+AS
+DECLARE @idtemp int;
+BEGIN
+insert into Persona values (@id,@Primer_Nombre,@Segundo_Nombre,@Primer_Apellido,@Segundo_Apellido
+,@Fecha_Nacimiento,@Genero,@Cedula,@Telefono,@Email,'',1)
+select @idtemp=idPersona from Persona where  Cedula=@Cedula
+IF (@Tipo = 1)
+BEGIN
+insert into Paciente values (@idtemp,1)
+end
+IF (@Tipo = 2)
+BEGIN
+insert into Doctor values (@idtemp,@Especialidad,1)
+end
+END

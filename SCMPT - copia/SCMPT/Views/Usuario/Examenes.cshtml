@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Citas>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="~/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link rel="stylesheet" href="~/css/main.css">
+</head>
+<body>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Doctor.Especialidad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fecha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hora)
+            </th>
+            <th></th>
+        </tr>
+        @if (Model != null)
+        {
+            foreach (var result in Model)
+            {
+                <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => result.Doctor.Especialidad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => result.Fecha)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => result.Hora)
+                </td>
+                <td>
+                    @Html.ActionLink("Ver resultados", "Vercita", new { id = result.idCita }) |
+                </td>
+            </tr>
+            }
+        }
+        </table>
+        @Html.ActionLink("atras", "Index")
+        <script src="~/js/active.js"></script>
+        <script src="js/init.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/materialize.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $(".button-collapse").sideNav();
+                $('.collapsible').collapsible({
+                    accordion: false
+                });
+            });
+        </script>
+</body>
+</html> 

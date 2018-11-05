@@ -1,0 +1,44 @@
+﻿@using SCMPT.Controllers
+@model  SCMPT.Models.detaexamen
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Cita</title>
+</head>
+<body>
+@if (Model != null)
+{
+    <p>Resultado de su cita: @Model.DetallesCita.Detalles</p>
+
+    <p>Precio pagado :@Model.DetallesCita.costo</p>
+    
+    
+    if (Model.ResultadoExamens != null)
+    {
+          foreach (var result in Model.ResultadoExamens)
+{
+    <div class="card">
+            <img width="280" height="250" src="@Url.Action("exmanenimagen","Usuario",new {id = result.idResultado})">
+        <span>tipo: @result.tipo</span>
+            <span>fecha: @result.Fecha</span>
+            
+    </div>
+}
+    }
+    else
+    {
+      <span>Los resultados de sus examenes aun no estan</span>
+    }
+}
+else
+{
+   <span>Aun no ah asistido a su cita</span>
+}
+<div>
+    @Html.ActionLink("Atras", "Examenes")
+</div>
+</body>
+</html>
+

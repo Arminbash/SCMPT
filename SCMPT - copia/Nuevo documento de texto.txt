@@ -1,0 +1,47 @@
+public int usuariopaciente(string nombre)
+        {
+            SqlConnection con = null;
+            int result ;
+            try
+            {
+                //Cambie el nombre del connectionString
+                con = new SqlConnection(ConfigurationManager.ConnectionStrings["DefaultConnection"].ToString());
+                SqlCommand com = new SqlCommand
+                ("select t1.UserName from AspNetUsers t1 inner join Persona t2 on t1.Id = t2.idUsuario inner join Paciente t3 on t2.idPersona= t3.idPaciente where t1.UserName='" + nombre + "'", con);
+                con.Open();
+                result = Convert.ToInt32(com.ExecuteScalar());
+                return result;
+            }
+            catch
+            {
+                return 0;
+            }
+            finally
+            {
+                con.Close();
+            }
+    }
+
+ public int usuariodoctor(string nombre)
+ {
+     SqlConnection con = null;
+     int result;
+     try
+     {
+         //Cambie el nombre del connectionString
+         con = new SqlConnection(ConfigurationManager.ConnectionStrings["DefaultConnection"].ToString());
+         SqlCommand com = new SqlCommand
+         ("select t1.UserName from AspNetUsers t1 inner join Persona t2 on t1.Id = t2.idUsuario inner join Doctor t3 on t2.idPersona= t3.idDoctor where t1.UserName='" + nombre + "'", con);
+         con.Open();
+         result = com.ExecuteNonQuery();
+         return result;
+     }
+     catch
+     {
+         return 0;
+     }
+     finally
+     {
+         con.Close();
+     }
+ }

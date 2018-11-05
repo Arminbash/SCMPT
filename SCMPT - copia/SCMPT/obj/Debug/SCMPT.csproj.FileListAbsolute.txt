@@ -1,0 +1,740 @@
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\SCMPT.dll.config
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\SCMPT.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\SCMPT.pdb
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Antlr3.Runtime.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\EntityFramework.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\EntityFramework.SqlServer.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.Owin.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.Owin.Security.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Newtonsoft.Json.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Owin.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\System.Web.Helpers.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\System.Web.Mvc.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\System.Web.Optimization.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\System.Web.Razor.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\System.Web.WebPages.Deployment.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\System.Web.WebPages.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\System.Web.WebPages.Razor.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\WebGrease.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\System.Web.Helpers.xml
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\System.Web.Mvc.xml
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\System.Web.Optimization.xml
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\System.Web.Razor.xml
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\System.Web.WebPages.xml
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\System.Web.WebPages.Deployment.xml
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\System.Web.WebPages.Razor.xml
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Newtonsoft.Json.xml
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Antlr3.Runtime.pdb
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\EntityFramework.xml
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\EntityFramework.SqlServer.xml
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.Owin.xml
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.Owin.Security.xml
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\es\System.Web.Helpers.resources.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\es\System.Web.Mvc.resources.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\es\System.Web.Optimization.resources.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\es\System.Web.Razor.resources.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\es\System.Web.WebPages.resources.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\es\EntityFramework.resources.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\es\Microsoft.Owin.resources.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\obj\Debug\SCMPT.dll
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\obj\Debug\SCMPT.pdb
+C:\Users\johnnyantonio\Videos\Nueva carpeta (2)\SCMPT\SCMPT\obj\Debug\SCMPT.csprojResolveAssemblyReference.cache
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\SCMPT.dll.config
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\SCMPT.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\SCMPT.pdb
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Antlr3.Runtime.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\EntityFramework.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\EntityFramework.SqlServer.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Newtonsoft.Json.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Owin.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\System.Web.Helpers.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\System.Web.Mvc.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\System.Web.Optimization.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\System.Web.Razor.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.Deployment.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.Razor.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\WebGrease.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\System.Web.Helpers.xml
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\System.Web.Mvc.xml
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\System.Web.Optimization.xml
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\System.Web.Razor.xml
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.xml
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.Deployment.xml
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.Razor.xml
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Newtonsoft.Json.xml
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Antlr3.Runtime.pdb
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\EntityFramework.xml
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\EntityFramework.SqlServer.xml
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.xml
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.xml
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\es\System.Web.Helpers.resources.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\es\System.Web.Mvc.resources.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\es\System.Web.Optimization.resources.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\es\System.Web.Razor.resources.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\es\System.Web.WebPages.resources.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\es\EntityFramework.resources.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.resources.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\obj\Debug\SCMPT.dll
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\obj\Debug\SCMPT.pdb
+C:\Users\asael\Desktop\Projects\SCM\SCMPT\SCMPT\obj\Debug\SCMPT.csprojResolveAssemblyReference.cache
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\SCMPT.dll.config
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\SCMPT.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\SCMPT.pdb
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Antlr3.Runtime.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\EntityFramework.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\EntityFramework.SqlServer.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Newtonsoft.Json.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Owin.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Helpers.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Mvc.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Optimization.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Razor.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.Deployment.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.Razor.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\WebGrease.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Helpers.xml
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Mvc.xml
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Optimization.xml
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Razor.xml
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.xml
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.Deployment.xml
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.Razor.xml
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Newtonsoft.Json.xml
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Antlr3.Runtime.pdb
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\EntityFramework.xml
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\EntityFramework.SqlServer.xml
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.xml
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.xml
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\es\System.Web.Helpers.resources.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\es\System.Web.Mvc.resources.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\es\System.Web.Optimization.resources.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\es\System.Web.Razor.resources.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\es\System.Web.WebPages.resources.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\es\EntityFramework.resources.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.resources.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\obj\Debug\SCMPT.csprojResolveAssemblyReference.cache
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\obj\Debug\SCMPT.dll
+C:\Users\johnnyantonio\Videos\SCM_2\SCM\SCMPT\SCMPT\obj\Debug\SCMPT.pdb
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\SCMPT.dll.config
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\SCMPT.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\SCMPT.pdb
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Antlr3.Runtime.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\EntityFramework.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\EntityFramework.SqlServer.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Newtonsoft.Json.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Owin.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Helpers.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Mvc.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Optimization.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Razor.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.Deployment.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.Razor.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\WebGrease.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Helpers.xml
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Mvc.xml
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Optimization.xml
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Razor.xml
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.xml
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.Deployment.xml
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.Razor.xml
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Newtonsoft.Json.xml
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Antlr3.Runtime.pdb
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\EntityFramework.xml
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\EntityFramework.SqlServer.xml
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.xml
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.xml
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\es\System.Web.Helpers.resources.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\es\System.Web.Mvc.resources.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\es\System.Web.Optimization.resources.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\es\System.Web.Razor.resources.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\es\System.Web.WebPages.resources.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\es\EntityFramework.resources.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.resources.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\obj\Debug\SCMPT.csprojResolveAssemblyReference.cache
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\obj\Debug\SCMPT.dll
+C:\Users\asael\Desktop\Projects\SCM_2\SCM\SCMPT\SCMPT\obj\Debug\SCMPT.pdb
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\SCMPT.dll.config
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\SCMPT.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\SCMPT.pdb
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Antlr3.Runtime.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\EntityFramework.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\EntityFramework.SqlServer.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Newtonsoft.Json.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Owin.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Helpers.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Mvc.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Optimization.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Razor.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.Deployment.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.Razor.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\WebGrease.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Helpers.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Mvc.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Optimization.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.Razor.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.Deployment.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.Razor.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Newtonsoft.Json.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Antlr3.Runtime.pdb
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\EntityFramework.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\EntityFramework.SqlServer.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\es\System.Web.Helpers.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\es\System.Web.Mvc.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\es\System.Web.Optimization.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\es\System.Web.Razor.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\es\System.Web.WebPages.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\es\EntityFramework.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\obj\Debug\SCMPT.csprojResolveAssemblyReference.cache
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\obj\Debug\SCMPT.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM_2\SCM\SCMPT\SCMPT\obj\Debug\SCMPT.pdb
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\SCMPT.dll.config
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\SCMPT.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\SCMPT.pdb
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Antlr3.Runtime.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\EntityFramework.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\EntityFramework.SqlServer.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Newtonsoft.Json.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Owin.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\System.Web.Helpers.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\System.Web.Mvc.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\System.Web.Optimization.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\System.Web.Razor.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.Deployment.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.Razor.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\WebGrease.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\System.Web.Helpers.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\System.Web.Mvc.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\System.Web.Optimization.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\System.Web.Razor.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.Deployment.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\System.Web.WebPages.Razor.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Newtonsoft.Json.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Antlr3.Runtime.pdb
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\EntityFramework.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\EntityFramework.SqlServer.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\es\System.Web.Helpers.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\es\System.Web.Mvc.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\es\System.Web.Optimization.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\es\System.Web.Razor.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\es\System.Web.WebPages.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\es\EntityFramework.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\obj\Debug\SCMPT.csprojResolveAssemblyReference.cache
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\obj\Debug\SCMPT.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\SCM\SCMPT\SCMPT\obj\Debug\SCMPT.pdb
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\SCMPT.dll.config
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\SCMPT.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\SCMPT.pdb
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Antlr3.Runtime.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\EntityFramework.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\EntityFramework.SqlServer.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.Owin.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.Owin.Security.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Newtonsoft.Json.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Owin.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\System.Web.Helpers.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\System.Web.Mvc.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\System.Web.Optimization.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\System.Web.Razor.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\System.Web.WebPages.Deployment.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\System.Web.WebPages.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\System.Web.WebPages.Razor.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\WebGrease.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\System.Web.Helpers.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\System.Web.Mvc.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\System.Web.Optimization.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\System.Web.Razor.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\System.Web.WebPages.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\System.Web.WebPages.Deployment.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\System.Web.WebPages.Razor.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Newtonsoft.Json.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Antlr3.Runtime.pdb
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\EntityFramework.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\EntityFramework.SqlServer.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.Owin.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.Owin.Security.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\es\System.Web.Helpers.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\es\System.Web.Mvc.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\es\System.Web.Optimization.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\es\System.Web.Razor.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\es\System.Web.WebPages.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\es\EntityFramework.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\es\Microsoft.Owin.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\obj\Debug\SCMPT.csprojResolveAssemblyReference.cache
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\obj\Debug\SCMPT.dll
+C:\Users\johnnyantonio\Videos\79040-ToYcon\ToYcon\SCMPT\SCMPT\obj\Debug\SCMPT.pdb
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\SCMPT.dll.config
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\SCMPT.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\SCMPT.pdb
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Antlr3.Runtime.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\EntityFramework.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\EntityFramework.SqlServer.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.Owin.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Newtonsoft.Json.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Owin.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\System.Web.Helpers.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\System.Web.Mvc.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\System.Web.Optimization.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\System.Web.Razor.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\System.Web.WebPages.Deployment.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\System.Web.WebPages.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\System.Web.WebPages.Razor.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\WebGrease.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\System.Web.Helpers.xml
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\System.Web.Mvc.xml
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\System.Web.Optimization.xml
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\System.Web.Razor.xml
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\System.Web.WebPages.xml
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\System.Web.WebPages.Deployment.xml
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\System.Web.WebPages.Razor.xml
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Newtonsoft.Json.xml
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Antlr3.Runtime.pdb
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\EntityFramework.xml
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\EntityFramework.SqlServer.xml
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.Owin.xml
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.xml
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\es\System.Web.Helpers.resources.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\es\System.Web.Mvc.resources.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\es\System.Web.Optimization.resources.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\es\System.Web.Razor.resources.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\es\System.Web.WebPages.resources.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\es\EntityFramework.resources.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\es\Microsoft.Owin.resources.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\obj\Debug\SCMPT.csprojResolveAssemblyReference.cache
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\obj\Debug\SCMPT.dll
+C:\Users\asael\Desktop\Today\SCMPT\SCMPT\obj\Debug\SCMPT.pdb
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\SCMPT.dll.config
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\SCMPT.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\SCMPT.pdb
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Antlr3.Runtime.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\EntityFramework.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\EntityFramework.SqlServer.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.Owin.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Newtonsoft.Json.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Owin.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\System.Web.Helpers.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\System.Web.Mvc.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\System.Web.Optimization.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\System.Web.Razor.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\System.Web.WebPages.Deployment.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\System.Web.WebPages.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\System.Web.WebPages.Razor.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\WebGrease.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\System.Web.Helpers.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\System.Web.Mvc.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\System.Web.Optimization.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\System.Web.Razor.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\System.Web.WebPages.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\System.Web.WebPages.Deployment.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\System.Web.WebPages.Razor.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Newtonsoft.Json.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Antlr3.Runtime.pdb
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\EntityFramework.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\EntityFramework.SqlServer.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.Owin.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\es\System.Web.Helpers.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\es\System.Web.Mvc.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\es\System.Web.Optimization.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\es\System.Web.Razor.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\es\System.Web.WebPages.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\es\EntityFramework.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\es\Microsoft.Owin.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\obj\Debug\SCMPT.csprojResolveAssemblyReference.cache
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\obj\Debug\SCMPT.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT\SCMPT\obj\Debug\SCMPT.pdb
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\SCMPT.dll.config
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\SCMPT.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\SCMPT.pdb
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Antlr3.Runtime.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\EntityFramework.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\EntityFramework.SqlServer.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.Owin.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.Owin.Security.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Newtonsoft.Json.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Owin.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\System.Web.Helpers.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\System.Web.Mvc.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\System.Web.Optimization.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\System.Web.Razor.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\System.Web.WebPages.Deployment.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\System.Web.WebPages.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\System.Web.WebPages.Razor.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\WebGrease.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\System.Web.Helpers.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\System.Web.Mvc.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\System.Web.Optimization.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\System.Web.Razor.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\System.Web.WebPages.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\System.Web.WebPages.Deployment.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\System.Web.WebPages.Razor.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Newtonsoft.Json.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Antlr3.Runtime.pdb
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\EntityFramework.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\EntityFramework.SqlServer.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.Owin.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.Owin.Security.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\es\System.Web.Helpers.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\es\System.Web.Mvc.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\es\System.Web.Optimization.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\es\System.Web.Razor.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\es\System.Web.WebPages.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\es\EntityFramework.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\es\Microsoft.Owin.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\obj\Debug\SCMPT.dll
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\obj\Debug\SCMPT.pdb
+C:\Users\johnnyantonio\Videos\Today\SCMPT - copia\SCMPT\obj\Debug\SCMPT.csprojResolveAssemblyReference.cache

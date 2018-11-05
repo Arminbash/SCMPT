@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1953ace94d7e40499667676f70eb2515" Name="Diagram1">
+        <EntityTypeShape EntityType="SCMPTModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SCMPTModel.AspNetRoles" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SCMPTModel.AspNetUserClaims" Width="1.5" PointX="5.25" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SCMPTModel.AspNetUserLogins" Width="1.5" PointX="5.25" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SCMPTModel.AspNetUsers" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SCMPTModel.Citas" Width="1.5" PointX="9.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="SCMPTModel.Detalles_Cita" Width="1.5" PointX="12" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SCMPTModel.Doctor" Width="1.5" PointX="7.5" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SCMPTModel.Lista_examenes" Width="1.5" PointX="12.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SCMPTModel.Noticia" Width="1.5" PointX="9.75" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SCMPTModel.Paciente" Width="1.5" PointX="12" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SCMPTModel.Persona" Width="1.5" PointX="5.25" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SCMPTModel.Resultado_examen" Width="1.5" PointX="14.25" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SCMPTModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SCMPTModel.Imagenes" Width="1.5" PointX="5.25" PointY="14.375" IsExpanded="true" />
+        <AssociationConnector Association="SCMPTModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_User_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="SCMPTModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="SCMPTModel.FK__Imagenes__id__42E1EEFE" ManuallyRouted="false" />
+        <AssociationConnector Association="SCMPTModel.FK__Persona__idUsuar__17F790F9" ManuallyRouted="false" />
+        <AssociationConnector Association="SCMPTModel.FK__Citas__idDoctor__2645B050" ManuallyRouted="false" />
+        <AssociationConnector Association="SCMPTModel.FK__Citas__idPacient__2739D489" ManuallyRouted="false" />
+        <AssociationConnector Association="SCMPTModel.FK__Detalles___idCit__2BFE89A6" ManuallyRouted="false" />
+        <AssociationConnector Association="SCMPTModel.FK__Resultado__idDet__30C33EC3" ManuallyRouted="false" />
+        <AssociationConnector Association="SCMPTModel.FK__Doctor__idDoctor__1CBC4616" ManuallyRouted="false" />
+        <AssociationConnector Association="SCMPTModel.FK__Lista_exa__idDoc__40058253" ManuallyRouted="false" />
+        <AssociationConnector Association="SCMPTModel.FK__Noticia__idDocto__37703C52" ManuallyRouted="false" />
+        <AssociationConnector Association="SCMPTModel.FK__Lista_exa__idPac__3F115E1A" ManuallyRouted="false" />
+        <AssociationConnector Association="SCMPTModel.FK__Paciente__idPaci__2180FB33" ManuallyRouted="false" />
+        <AssociationConnector Association="SCMPTModel.AspNetUserRoles" ManuallyRouted="false" />
+        <AssociationConnector Association="SCMPTModel.Mochila" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

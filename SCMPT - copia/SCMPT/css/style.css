@@ -1,0 +1,146 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+
+.altura 
+{
+	height: 180px;
+	margin-bottom: -10px;
+}
+
+.abajo
+{
+	margin-top: 290px;
+	
+}
+
+.quitar-espacio
+{
+	margin-bottom: -42px;
+}
+
+.color-letra
+{
+	color:#bf360c;
+}
+
+.letra-sz {
+	font-size: 100%;
+
+}
+
+
+/*Para el login*/
+.borde {
+	background: #e0f2f1;
+	max-width: 500px; 
+	border-radius: 3px;
+	margin:0 auto;
+	padding: 40px;
+	height: 370px;
+	
+
+}
+
+
+/*Change Pass*/
+.borde2 {
+	background: #e0f2f1;
+	max-width: 500px; 
+	border-radius: 6px;
+	margin:0 auto;
+	padding: 40px;
+	height: 510px;
+	
+
+}
+
+/*Register User*/
+.bf {
+	background: #e0f2f1;
+	max-width: 500px; 
+	border-radius: 6px;
+	margin:0 auto;
+	padding: 40px;
+	height: 980px;
+	
+
+}
+
+.sin-espacio {
+	margin-top: -27px;
+	margin-bottom: -17px; 
+}
+
+.letra_s {
+	font-family: 'Lato', sans-serif;
+}
+
+
+.sz {
+	/*size*/
+	font-size: 19px;
+}
+/*Login */
+
+.slabo
+{
+	font-family: 'Slabo 27px', serif;
+
+}
+
+.textst
+{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid red;
+
+}
+
+.centro {
+		text-align: center !important;
+}
+
+/*Background*/
+.fondo {
+	background-image: url(../img/0a12d8cb.png);
+}
+/*fondo*/
+.fondo2 {
+	background-image: url(../images/imgTop-Codice-Etico_hd.jpg);
+	
+}
+
+.fondo2:hover
+{
+	background-image: url(../images/imgblur.jpg);
+}
+
+.al{
+	height:600px;
+}
+
+/*Tabs Roles*/
+
+.prueba 
+{
+	display: block; 
+	padding: 10px;
+	width: 100%;
+
+}

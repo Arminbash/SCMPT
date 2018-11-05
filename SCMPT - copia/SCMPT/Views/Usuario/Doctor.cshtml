@@ -1,0 +1,86 @@
+﻿@using Microsoft.AspNet.Identity
+@using SCMPT.DataAccess
+@using SCMPT.Models
+@model List<Citas>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="~/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link rel="stylesheet" href="~/css/main.css">
+</head>
+<body>
+    <div class="">
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="card-panel ">
+                    <img src="@Url.Action("convertirimagen", "Usuario", new { id = User.Identity.GetUserId()})" class="circle" alt="USER">
+                    <span>
+                        <h4 id="nombre"> @ViewBag.nombre</h4>
+                    </span>
+                    <p>@ViewBag.especialidad</p>
+
+                    @using (Html.BeginForm("Doctor", "Usuario", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <div class="form-group">
+                            <div class="col-md-10">
+                                <input type="file" name="FileUpload1" id="FileUpload1" value="examinar" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="cambiar" class="btn btn-default" />
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+            <div class="col s12 m8">
+                <div class="col s12 m8">
+                    <div class="card-panel">
+                        <div class="center">
+                            <h3>Citas De Hoy</h3>
+
+                          
+                            @if (Model != null)
+                            {
+                                foreach (var Citas in Model)
+                                {
+                                    @Html.Action("nombrepersona", new {id = Citas.idPaciente})
+
+                                    @Html.Encode(Citas.Fecha)
+
+                                    @Html.Encode(Citas.Hora)
+ 
+                                @Html.ActionLink("Ver", "Cita", new { id = Citas.idCita })
+
+                                }
+                            }
+                            else
+                            {
+                                <spam>No tiene citas hoy.</spam>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            @Html.ActionLink("Crear una noticia","Crear","Articulos")
+        </div>
+    </div>
+   
+    <script src="~/js/active.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".button-collapse").sideNav();
+        });
+    </script>
+</body>
+</html> 
